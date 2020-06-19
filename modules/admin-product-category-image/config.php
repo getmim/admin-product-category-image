@@ -35,7 +35,8 @@ return [
                     'label' => 'Image',
                     'type' => 'image',
                     'form' => 'std-image',
-                    'rules' => []
+                    'rules' => [],
+                    'xpos' => 'left-bottom-left'
                 ]
             ]
         ]
