@@ -2,7 +2,7 @@
 
 return [
     '__name' => 'admin-product-category-image',
-    '__version' => '0.0.1',
+    '__version' => '0.0.2',
     '__git' => 'git@github.com:getmim/admin-product-category-image.git',
     '__license' => 'MIT',
     '__author' => [
@@ -15,6 +15,9 @@ return [
     ],
     '__dependencies' => [
         'required' => [
+            [
+                'product-category-image' => NULL
+            ],
             [
                 'admin-product-category' => NULL
             ],
